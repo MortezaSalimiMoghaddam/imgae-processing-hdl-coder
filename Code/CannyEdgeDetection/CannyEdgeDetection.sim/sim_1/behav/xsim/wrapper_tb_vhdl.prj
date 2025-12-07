@@ -1,0 +1,34 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../VHDL/add_pipe.vhd" \
+"../../../../../VHDL/comparator.vhd" \
+"../../../../../VHDL/comparator1.vhd" \
+"../../../../../VHDL/config_pkg.vhd" \
+"../../../../../VHDL/controller.vhd" \
+"../../../../../VHDL/register.vhd" \
+"../../../../../VHDL/regbit.vhd" \
+"../../../../../VHDL/rshift_1.vhd" \
+"../../../../../VHDL/rshift_3.vhd" \
+"../../../../../VHDL/rshift_2.vhd" \
+"../../../../../VHDL/datapath.vhd" \
+"../../../../../VHDL/mult_pipe.vhd" \
+"../../../../../VHDL/sub_pipe.vhd" \
+"../../../../../VHDL/datapathGx.vhd" \
+"../../../../../VHDL/datapathGy.vhd" \
+"../../../../../VHDL/threshold_comp.vhd" \
+"../../../../../VHDL/datapath_thresh.vhd" \
+"../../../../../VHDL/ip_address_generator_1.vhd" \
+"../../../../../VHDL/ip_address_generator_2.vhd" \
+"../../../../../VHDL/ip_address_generator_3.vhd" \
+"../../../../../VHDL/ip_ram.vhd" \
+"../../../../../VHDL/memory_map.vhd" \
+"../../../../../VHDL/op_address_generator.vhd" \
+"../../../../../VHDL/op_ram.vhd" \
+"../../../../../VHDL/smartBuffer.vhd" \
+"../../../../../VHDL/smartBufferV.vhd" \
+"../../../../../VHDL/user_app.vhd" \
+"../../../../../VHDL/wrapper.vhd" \
+"../../../../CannyEdgeDetection.srcs/sim_1/new/tb_wrapper.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,50 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/ProgramFiles/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 916724fa838c443c9d9219f6e7617343 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot canny_tb_behav xil_defaultlib.canny_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling package xil_defaultlib.config_pkg
+Compiling architecture bhv of entity xil_defaultlib.reg [\reg(width=8)\]
+Compiling architecture bhv of entity xil_defaultlib.mult_pipe [\mult_pipe(width1=8,width2=2)\]
+Compiling architecture bhv of entity xil_defaultlib.sub_pipe [\sub_pipe(width=10)\]
+Compiling architecture bhv of entity xil_defaultlib.add_pipe [\add_pipe(width1=11,width2=11)\]
+Compiling architecture bhv of entity xil_defaultlib.reg [\reg(width=11)\]
+Compiling architecture bhv of entity xil_defaultlib.add_pipe [\add_pipe(width1=12,width2=11)\]
+Compiling architecture pipe_datapath of entity xil_defaultlib.datapathGx [datapathgx_default]
+Compiling architecture pipe_datapath of entity xil_defaultlib.datapath_gy [datapath_gy_default]
+Compiling architecture bhv of entity xil_defaultlib.reg [\reg(width=15)\]
+Compiling architecture bhv of entity xil_defaultlib.thres_comp [\thres_comp(width=15)\]
+Compiling architecture pipe_datapath of entity xil_defaultlib.datapath_threshold [\datapath_threshold(width=15)\]
+Compiling architecture bhv of entity xil_defaultlib.memory_map [memory_map_default]
+Compiling architecture sync_read of entity xil_defaultlib.ip_ram [\ip_ram(num_words=32768,word_wid...]
+Compiling architecture sync_read of entity xil_defaultlib.op_ram [\op_ram(num_words=32768,word_wid...]
+Compiling architecture bhv of entity xil_defaultlib.controller [controller_default]
+Compiling architecture address of entity xil_defaultlib.ip_address_generator_prow [ip_address_generator_prow_defaul...]
+Compiling architecture bhv of entity xil_defaultlib.smart_buff [smart_buff_default]
+Compiling architecture address of entity xil_defaultlib.ip_address_generator_crow [ip_address_generator_crow_defaul...]
+Compiling architecture bhv of entity xil_defaultlib.regbit [regbit_default]
+Compiling architecture bhv of entity xil_defaultlib.smart_buff_v [smart_buff_v_default]
+Compiling architecture address of entity xil_defaultlib.ip_address_generator_nrow [ip_address_generator_nrow_defaul...]
+Compiling architecture bhv of entity xil_defaultlib.reg [\reg(width=13)\]
+Compiling architecture bhv of entity xil_defaultlib.comparator [\comparator(width=13)\]
+Compiling architecture str of entity xil_defaultlib.shift1 [\shift1(width=13)\]
+Compiling architecture str of entity xil_defaultlib.shift3 [\shift3(width=13)\]
+Compiling architecture str of entity xil_defaultlib.shift2 [\shift2(width=13)\]
+Compiling architecture bhv of entity xil_defaultlib.add_pipe [\add_pipe(width1=13,width2=13)\]
+Compiling architecture bhv of entity xil_defaultlib.add_pipe [\add_pipe(width1=14,width2=14)\]
+Compiling architecture bhv of entity xil_defaultlib.comparator1 [\comparator1(width=13)\]
+Compiling architecture structural of entity xil_defaultlib.datapath [\datapath(width=13)\]
+Compiling architecture address of entity xil_defaultlib.op_address_generator [op_address_generator_default]
+Compiling architecture default of entity xil_defaultlib.user_app [user_app_default]
+Compiling architecture default of entity xil_defaultlib.wrapper [wrapper_default]
+Compiling architecture test of entity xil_defaultlib.canny_tb
+Built simulation snapshot canny_tb_behav

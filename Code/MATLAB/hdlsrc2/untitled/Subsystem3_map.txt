@@ -1,0 +1,4 @@
+untitled/Subsystem3/G abs --> G_abs
+untitled/Subsystem3/Sobel X --> Sobel_X
+untitled/Subsystem3/Sobel Y --> Sobel_Y
+untitled/Subsystem3 --> Subsystem3
